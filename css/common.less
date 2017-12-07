@@ -157,6 +157,7 @@ nav {
       width: 75%;
       margin-bottom: 30px;
       color: #fff;
+      font-size: 16px;
     }
     .footerLinks {
       width: 75%;
@@ -167,7 +168,7 @@ nav {
         display: inline-block;
         color: #ccc;
         margin-right: 20px;
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 20px;
       }
     }
@@ -178,16 +179,22 @@ nav {
       .newCode {
         display: inline-block;
         margin-right: 20px;
+        span{
+          background: url("../images/wxQrCode.png") no-repeat center center;
+          background-size: cover;
+        }
       }
       .oldCode {
         display: inline-block;
+        span{
+          background: url("../images/weiboQr.png") no-repeat center center;
+          background-size: cover;
+        }
       }
       span {
         display: block;
         width: 120px;
         height: 120px;
-        background: url("../images/newQrCode.png") no-repeat center center;
-        background-size: cover;
       }
       p {
         width: 100%;
@@ -214,7 +221,8 @@ nav {
       a {
         display: inline-block;
         color: #ccc;
-        margin-right: 20px;
+        margin-left: 10px;
+        text-align: right;
       }
     }
   }
